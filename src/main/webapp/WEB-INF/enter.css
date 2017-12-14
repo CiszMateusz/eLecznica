@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+ .body1{
+ 		background: url("logo.png");
+ 		background-size: 50% 75%;
+ 		background-repeat: no-repeat;
+		background-position: top;
+		background-color: #455a64;
+		top: 50%;
+		left: 50%
+ }
+.clockbox{
+	color: white;
+	position:absolute;
+	top:20px;
+	right:20px;
+	font-size: 30px;
+	font-family: Times New Roman;
+	font-weight: bold;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 70px ;
+	font-family: Times New Roman;
+}
+.p1{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+.buttonDocuments,
+.buttonHelp,
+.buttonWarehouse,
+.buttonVisit,
+.buttonCustomer,
+.buttonAnimal{
+			font-family: Times New Roman;
+            color: white;
+            border-radius: 40px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            font-size: 50px;
+            width: 50%;
+            float: left;
+            margin: 40 auto;
+            line-height:2;
+            background: #CFD8DC;
+ }
+
+table, tr, td {
+   border: 1px solid black;
+}
